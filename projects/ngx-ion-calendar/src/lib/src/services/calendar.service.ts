@@ -1,5 +1,5 @@
 import { Inject, Injectable, Optional } from '@angular/core';
-import * as moment from 'moment';
+import moment from 'moment';
 
 import {
   CalendarOriginal,
@@ -14,7 +14,9 @@ import { DEFAULT_CALENDAR_OPTIONS } from './calendar-options.provider';
 
 const isBoolean = (input: any) => input === true || input === false;
 
-@Injectable()
+@Injectable({
+  providedIn: 'root'
+})
 export class CalendarService {
   private readonly defaultOpts: CalendarModalOptions;
 

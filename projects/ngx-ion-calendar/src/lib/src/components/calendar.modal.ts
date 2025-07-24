@@ -12,7 +12,7 @@ import {
 import { NavParams, ModalController, IonContent } from '@ionic/angular';
 import { CalendarDay, CalendarMonth, CalendarModalOptions } from '../calendar.model';
 import { CalendarService } from '../services/calendar.service';
-import * as moment from 'moment';
+import moment from 'moment';
 import { pickModes } from '../config';
 
 const NUM_OF_MONTHS_TO_CREATE = 3;
