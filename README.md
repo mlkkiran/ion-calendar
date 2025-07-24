@@ -1,2 +1,0 @@
-# ion-calendar
-Ionic calendar
